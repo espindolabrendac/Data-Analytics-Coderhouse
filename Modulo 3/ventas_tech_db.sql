@@ -21,7 +21,7 @@ CREATE TABLE clientes (
 id_cliente INT PRIMARY KEY,
 nombre VARCHAR (100) NOT NULL,
 email VARCHAR (100) UNIQUE,
-cuidad VARCHAR (50),
+ciudad VARCHAR (50),
 fecha_registro DATE NOT NULL
 );
 GO
@@ -58,7 +58,7 @@ GO
 -- INSERT DATA 
 INSERT INTO categorias VALUES (1, 'Computación', 'Laptops, PCs y monitores');
 INSERT INTO categorias VALUES (2, 'Accesorios', 'Periféricos y complementos');
-INSERT INTO categorias VALUES (3, 'Audio', 'Auriculaes y paralantes');
+INSERT INTO categorias VALUES (3, 'Audio', 'Auriculares y parlantes');
 INSERT INTO categorias VALUES (4, 'Almacenamiento','Discos y memorias');
 GO
 INSERT INTO clientes VALUES 
@@ -68,7 +68,7 @@ INSERT INTO clientes VALUES
 INSERT INTO clientes VALUES
 (3, 'Ana Gómez', 'ana@mail.com', 'Rosario','2024-02-01');
 INSERT INTO clientes VALUES
-(4, 'Pedro Saenz','pedro@mail.com', 'Mendoza', '2024-02-15');
+(4, 'Pedro Sanz','pedro@mail.com', 'Mendoza', '2024-02-15');
 INSERT INTO clientes VALUES
 (5, 'Laura Torres', 'laura@mail.com', 'Tucumán', '2024-03-01');
 GO
